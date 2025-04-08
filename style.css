@@ -1,49 +1,79 @@
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
 }
 
 header {
-    background: #004b8d;
-    color: #fff;
-    padding: 2rem 1rem;
-    text-align: center;
+  background: #004b8d;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 1rem;
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5rem;
+  margin: 0.5rem 0 0.2rem;
+  font-size: 2.2rem;
 }
 
 section {
-    padding: 2rem 1.5rem;
-    max-width: 800px;
-    margin: auto;
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: auto;
 }
 
 ul.badges {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 ul.badges li {
-    display: inline-block;
-    background: #007acc;
-    color: #fff;
-    padding: 0.4rem 0.8rem;
-    margin: 0.3rem;
-    border-radius: 5px;
-    font-size: 0.9rem;
+  display: inline-block;
+  background: #007acc;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background: #004b8d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 footer {
-    background: #f1f1f1;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
