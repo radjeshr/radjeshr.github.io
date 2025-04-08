@@ -109,3 +109,31 @@ footer {
 .button:hover {
   background-color: #005a99;
 }
+
+section {
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid #004b8d;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005a99;
+}
+
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
