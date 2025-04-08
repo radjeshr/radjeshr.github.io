@@ -77,3 +77,35 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin-top: 0.5rem;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005f99;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #007acc;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005a99;
+}
